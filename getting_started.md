@@ -1,4 +1,4 @@
-## Getting Started with Azure Function
+## Getting Started with Azure Functions
 ### Last updated: March 8th 2021
 
 #### Project Structure

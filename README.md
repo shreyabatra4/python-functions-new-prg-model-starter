@@ -1,6 +1,6 @@
 # New Programming Model for Azure Functions Python
 
-## An easier way to create Functions
+## An easier way to create Functions using Python
 
 The new programming model simplifies the Function App structure by having triggers and bindings represented as decorators, eliminating the need for the `function.json` configuration file, and creating an experience aligned with frequently used Python frameworks.
 

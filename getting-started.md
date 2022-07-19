@@ -11,7 +11,6 @@ In addition to the [published documentation](<TODO>), hints are available in cod
 
 ## Callouts
 
-- To define a trigger or binding, leverage intellisense by typing "trigger" or "output" to select templates. The previous experience of opening the command palette to add templates will not work.
 - Mix and match of Functions written in the previous programming model and the new programming model in the same Function App will not be supported.
 
 To learn more about the new programming model for Azure Functions in Python, see <TODO>.
@@ -41,7 +40,8 @@ Publishing your function app to Azure
   
 For more information on deployment options for Azure Functions, please visit this guide.
 
-Next Steps
+## Next Steps
+  
 To learn more about developing Azure Functions, please visit Azure Functions Developer Guide.
 
 To learn more specific guidance on developing Azure Functions with Python, please visit Azure Functions Developer Python Guide.

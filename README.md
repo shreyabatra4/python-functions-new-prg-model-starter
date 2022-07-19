@@ -2,11 +2,11 @@
 
 ## An easier way to create Functions using Python
 
-The new programming model simplifies the Function App structure by having triggers and bindings represented as decorators, eliminating the need for the `function.json` configuration file, and creating an experience aligned with frequently used Python frameworks.
+The new programming model simplifies the Function App structure by having triggers and bindings represented as decorators, eliminating the need for the `function.json` configuration file, and creating an experience aligned with commonly used Python frameworks.
 
 ## Try it out
 
-Documentation is avaiable here, examples for different extensions can found here, and view samples here.
+Documentation is avaiable here, examples for different extensions can found here, and view samples [here](https://github.com/Azure/azure-functions-python-worker/wiki).
 
 ## Callouts
 

@@ -6,7 +6,7 @@ The Blob storage trigger starts a function when a new or updated blob is detecte
 
 ## Using the Template
 
-// Blob Trigger code snippet
+Blob Trigger code snippet
 
 ```python
 import logging

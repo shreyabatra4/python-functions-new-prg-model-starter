@@ -17,7 +17,7 @@ app = func.FunctionApp()
 
 @app.function_name(name="BlobTrigger1")
 @app.blob_trigger(arg_name="myblob", path="samples-workitems/{name}",
-                  connection="")
+                  connection="MyStorageAccountAppSetting")
 def test_function(myblob: func.InputStream):
    logging.info(f"Python blob trigger function processed blob \n"
                 f"Name: {myblob.name}\n"
@@ -32,6 +32,9 @@ To run the code snippet generated through the command palette, note the followin
 To learn more about using the Blob Trigger in the new Python programming model for Azure Functions, see <TODO>.
 
 - It is assumed the name of the function application is `app`. If this is not the name of your function application, please rename it in the sample code accordingly.
+- The name of the file should be `function_app.py`.
+  
+Note that Blob input and output bindings are also supported in Azure Functions. To learn more, see [Azure Blob storage bindings overview](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob?tabs=in-process%2Cextensionv5%2Cextensionv3&pivots=programming-language-csharp)
 
 ## New Programming Model (Preview)
 

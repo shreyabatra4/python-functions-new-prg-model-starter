@@ -7,7 +7,9 @@ The new programming model in Azure Functions Python delivers an experience that 
 
 The improved programming model requires fewer files than the default model, and specifically eliminates the need for a configuration file (`function.json`). Instead, triggers and bindings are represented in the `function_app.py` file as decorators. Moreover, functions can be logically organized with support for multiple functions to be stored in the same file. Functions within the same function application can also be stored in different files, and be referenced as blueprints.
 
-In addition to the [published documentation](<TODO>), hints are available in code editors that support type checking with PYI files.
+In addition to the [documentation](https://docs.microsoft.com/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level), hints are available in code editors that support type checking with PYI files.
+
+To learn more about the new programming model for Azure Functions in Python, see [Programming Models in Azure Functions](https://aka.ms/functions-programming-models).
 
 ## Notes
 
@@ -43,4 +45,4 @@ For more information on deployment options for Azure Functions, please visit thi
 
 ## Next Steps
   
-- To learn more specific guidance on developing Azure Functions with Python, please visit [Azure Functions Developer Python Guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level).
+To learn more specific guidance on developing Azure Functions with Python, please visit [Azure Functions Developer Python Guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level).

@@ -1,4 +1,4 @@
-# Blob Trigger - Python (New Programming Model)
+# Azure Functions: Blob Trigger in Python
 
 ## Blob Trigger
 
@@ -6,7 +6,7 @@ The Blob storage trigger starts a function when a new or updated blob is detecte
 
 ## Using the Template
 
-Blob Trigger code snippet
+Following is an example code snippet for Blob Trigger using the new programming model (currently in Preview).
 
 ```python
 import logging

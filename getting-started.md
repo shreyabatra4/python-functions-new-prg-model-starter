@@ -9,11 +9,12 @@ The improved programming model requires fewer files than the default model, and 
 
 In addition to the [published documentation](<TODO>), hints are available in code editors that support type checking with PYI files.
 
-## Callouts
+## Notes
 
 - Mix and match of Functions written in the previous programming model and the new programming model in the same Function App will not be supported.
+- At this time, the main functions file must be named `function_app.py`.
 
-To learn more about the new programming model for Azure Functions in Python, see <TODO>.
+To learn more about the new programming model for Azure Functions in Python, see the [Azure Functions Python developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level).
 
 ## Getting Started
 

@@ -28,11 +28,9 @@ To run the code snippet generated through the command palette, note the followin
 
 - The function application is defined and named `app`.
 - Confirm that the parameters within the trigger reflect values that correspond with your storage account.
+- The name of the file must be `function_app.py`.
 
-To learn more about using the Blob Trigger in the new Python programming model for Azure Functions, see <TODO>.
-
-- It is assumed the name of the function application is `app`. If this is not the name of your function application, please rename it in the sample code accordingly.
-- The name of the file should be `function_app.py`.
+To learn more about using the new Python programming model for Azure Functions, see the [Azure Functions Python developer guide](https://docs.microsoft.com/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level).
   
 Note that Blob input and output bindings are also supported in Azure Functions. To learn more, see [Azure Blob storage bindings overview](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob?tabs=in-process%2Cextensionv5%2Cextensionv3&pivots=programming-language-csharp)
 
@@ -42,7 +40,7 @@ The new programming model in Azure Functions Python delivers an experience that 
 
 The improved programming model requires fewer files than the default model, and specifically eliminates the need for a configuration file (`function.json`). Instead, triggers and bindings are represented in the `function_app.py` file as decorators. Moreover, functions can be logically organized with support for multiple functions to be stored in the same file. Functions within the same function application can also be stored in different files, and be referenced as blueprints.
 
-In addition to the [published documentation](<TODO>), hints are available in code editors that support type checking with PYI files.
+In addition to the [documentation](https://docs.microsoft.com/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level), hints are available in code editors that support type checking with PYI files.
 
-To learn more about the new programming model for Azure Functions in Python, see <TODO>.
+To learn more about the new programming model for Azure Functions in Python, see [Programming Models in Azure Functions](https://aka.ms/functions-programming-models).
 

@@ -39,10 +39,8 @@ If you have not already, please checkout our quickstart to get you started with 
 
 Publishing your function app to Azure
   
-For more information on deployment options for Azure Functions, please visit this guide.
+For more information on deployment options for Azure Functions, please visit this [guide](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python#publish-the-project-to-azure).
 
 ## Next Steps
   
-To learn more about developing Azure Functions, please visit Azure Functions Developer Guide.
-
-To learn more specific guidance on developing Azure Functions with Python, please visit Azure Functions Developer Python Guide.
+- To learn more specific guidance on developing Azure Functions with Python, please visit [Azure Functions Developer Python Guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python?tabs=asgi%2Capplication-level).

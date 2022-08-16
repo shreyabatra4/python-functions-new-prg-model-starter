@@ -1,13 +1,11 @@
 import azure.functions as func
+import logging
 
 app = func.FunctionApp()
 
 # Learn more at aka.ms/pythonprogrammingmodel
 
-# import azure.functions as func
-# import logging
-
-# app = func.FunctionApp(auth_level=func.AuthLevel.ANONYMOUS)
+# Get started by running the following code to create a function using a HTTP trigger.
 
 # @app.function_name(name="HttpTrigger1")
 # @app.route(route="hello")
